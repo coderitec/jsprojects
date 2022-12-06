@@ -1,8 +1,42 @@
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
 }
 
 section{
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 30px black;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 4;
+}
+ul label{
+    display: inline-block;
+    width: 20%;
+}
+
+ul input[type="number"]{
+    display: inline-block;
+    width: 70%;
+    outline: none;
+    border: none;
+    border-bottom: 5px solid blue;
+}
+
+ul input[type="button"]{
+    display: inline-block;
+    width: 93%;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
 }
