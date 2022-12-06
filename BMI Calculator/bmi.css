@@ -1,0 +1,8 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section{
+    box-shadow: 0 0 20px black;
+}
