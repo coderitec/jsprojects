@@ -15,14 +15,14 @@
                 <h2>Type of Password: </h2>
             </li>    
             <li>    
-                <input type="radio" name="chars" id="six">
-                <label for="six">6 chars</label>
+                <input type="checkbox" name="chars" id="six">
+                <label for="six">alphabet and numbers only</label><br>
 
-                <input type="radio" name="chars" id="eight">
-                <label for="eight">8 chars</label>
+                <input type="checkbox" name="chars" id="eight">
+                <label for="eight">include special characters</label><br>
 
-                <input type="radio" name="chars" id="ten">
-                <label for="ten">6 chars</label>
+                <input type="number" name="chars" id="ten" min="6" max="10">
+                <label for="ten">password length</label>
             </li>
             <li>
                 <button type="submit">Generate Password</button>
