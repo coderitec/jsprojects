@@ -1,0 +1,10 @@
+main{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px blue;
+    padding: 1em;
+}
+ul{
+    line-height: 2;
+    list-style-type: none;
+}
