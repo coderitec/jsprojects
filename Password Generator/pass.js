@@ -9,7 +9,7 @@ para.style.display = 'none'
 const generator = () =>{
     let chars1 = "abcdefghijklmnopqrstuvwxyz1234567890"
     let chars2 = chars1.toUpperCase()
-    let chars3 = '!@#$%^&'
+    let chars3 = '!@#$%^&_'
     let parr = new Array()
     let chars4 = ''
     para.style.display = 'block'
