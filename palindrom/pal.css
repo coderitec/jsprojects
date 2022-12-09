@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(152, 185, 243);
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px 0;
+    box-shadow: 0 0 20px white;
+    padding: 1em;
+}
+
+ul{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+ul li{
+    line-height: 3;
+}
+
+input[type="button"]{
+    padding: 1em;
+    color: blue;
+    background-color: white;
+    border: none;
+    display: block;
+    margin-top: 1em;
+    width: 60%;
+    box-shadow: 0 0 5px blue;
+    text-transform: uppercase;
+}
+
+input[type="text"]{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid blue;
+    display: block;
+    width: 60%;
+}
