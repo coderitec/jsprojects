@@ -13,6 +13,7 @@ function guessNumber(){
     if(arr.length === 11){
         num.disabled = true
         btn.disabled = true
+        para2.textContent = 'Sorry, number of turns is exceeded'
     }
 
     else if(val > random){
